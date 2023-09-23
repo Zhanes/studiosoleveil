@@ -50,6 +50,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
+  background-color: var(--mellis-extra);
 }
 
 body.locked {
@@ -719,7 +720,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: var(--mellis-extra);
+  background-color: var(--mellis-white);
   padding-left: 60px;
   z-index: 1;
 }
@@ -825,6 +826,7 @@ ul {
   position: relative;
   display: block;
   z-index: 1;
+  background: var(--mellis-extra);
 }
 
 .main-menu__wrapper {
@@ -843,6 +845,7 @@ ul {
   padding: 0 60px 0;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
   z-index: 1;
+  min-height: 100px;
 }
 
 .main-menu__left {
@@ -853,6 +856,10 @@ ul {
 .main-menu__logo {
   position: relative;
   display: block;
+}
+
+.main-menu__logo img {
+  max-width: 180px;
 }
 
 .main-menu__main-menu-box {
@@ -1019,7 +1026,7 @@ ul {
   transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease;
   transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease, -webkit-transform 700ms ease;
   z-index: 99;
-  background-color: #fff;
+  background-color: var(--mellis-extra);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -1118,6 +1125,9 @@ ul {
   .stricky-header {
     display: none !important;
   }
+}
+.stricky-header {
+  background-color: var(--mellis-extra);
 }
 
 .stricky-header.stricky-fixed {
@@ -5739,6 +5749,7 @@ ul {
   display: block;
   padding: 120px 0 120px;
   z-index: 1;
+  background-color: var(--mellis-white);
 }
 
 .services-three::before {
@@ -5748,7 +5759,7 @@ ul {
   right: 0;
   top: 0;
   height: 380px;
-  background-color: var(--mellis-extra);
+  background-color: var(--mellis-white);
   z-index: -1;
 }
 
@@ -6313,9 +6324,6 @@ ul {
   left: 0;
   right: 0;
   height: 472px;
-  background-image: -moz-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(252, 245, 245) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(252, 245, 245) 100%);
-  background-image: -ms-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(252, 245, 245) 100%);
   z-index: -1;
 }
 
