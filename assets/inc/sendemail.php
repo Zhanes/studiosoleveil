@@ -1,17 +1,17 @@
 <?php
 
 // Define Host Info || Who is sending emails?
-define("HOST_NAME", "Poitech Mailer");
-define("HOST_EMAIL", "poitech@mail.com");
+define("HOST_NAME", "Studio Soleveil");
+define("HOST_EMAIL", "contact@studiosoleveil.ch");
 
 // Define SMTP Credentials || Gmail Informations
-define("SMTP_EMAIL", "mail@gmail.com");
-define("SMTP_PASSWORD", "your_gmail_pass"); // read documentations
+define("SMTP_EMAIL", "adrian.benchmark@gmail.com");
+define("SMTP_PASSWORD", "gsvglcumyeoignmb"); // read documentations
 
 
 // Define Recipent Info ||  Who will get this email?
-define("RECIPIENT_NAME", "John Doe");
-define("RECIPIENT_EMAIL", "jhon@mail.com");
+define("RECIPIENT_NAME", "Studio Soleveil");
+define("RECIPIENT_EMAIL", "adrian.casimiro.alvarez@gmail.com");
 
 
 use PHPMailer\PHPMailer\PHPMailer;
