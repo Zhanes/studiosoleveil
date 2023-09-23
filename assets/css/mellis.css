@@ -23,16 +23,16 @@
   --mellis-font-three: 'Parisienne', cursive;
   --mellis-white: #ffffff;
   --mellis-white-rgb: 255, 255, 255;
-  --mellis-base: #de968d;
+  --mellis-base: #E99FA0;
   --mellis-base-rgb: 222, 150, 141;
   --mellis-black: #27252a;
   --mellis-black-rgb: 39, 37, 42;
-  --mellis-extra: #fcf5f5;
-  --mellis-extra-rgb: 252, 245, 245;
-  --mellis-gray: #89868d;
-  --mellis-gray-rgb: 137, 134, 141;
-  --mellis-bdr-color: #f0e8e8;
-  --mellis-bdr-color-rgb: 240, 232, 232;
+  --mellis-extra: #FCF0F2;
+  --mellis-extra-rgb: 252, 240, 242;
+  --mellis-gray: #A0A9AF;
+  --mellis-gray-rgb: 160, 169, 175;
+  --mellis-bdr-color: #FCF0F2;
+  --mellis-bdr-color-rgb: 252, 240, 242;
   --mellis-letter-spacing: 0.1em
 }
 
