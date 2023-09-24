@@ -210,7 +210,9 @@
     }
 
 
-
+    .opening-hour {
+        margin-top: -140px;
+    }
 
 
 
@@ -482,8 +484,13 @@
         margin-top: 52px;
     }
 
+    .opening-hour {
+        margin-top: -140px;
+    }
 
-
+    .opening-hour {
+        margin-top: -96px;
+    }
 
 
 
@@ -605,10 +612,7 @@
     }
 
     .google-map__opening-hours {
-        top: 20px;
-        left: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        display:none;
     }
 
     .blog-one__content {
@@ -986,7 +990,21 @@
         align-items: baseline;
     }
 
+    .opening-hour {
+        margin-top: -80px;
+    }
 
+    .opening-hour__single {
+        display: -webkit-box;
+    }
+
+    .opening-hour__single li:first-child {
+        margin-right: 48px;
+    }
+
+    .opening-hour__single li:last-child {
+        margin-top: 0px;
+    }
 
 
 

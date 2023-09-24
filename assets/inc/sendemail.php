@@ -11,7 +11,7 @@ define("SMTP_PASSWORD", "gsvglcumyeoignmb"); // read documentations
 
 // Define Recipent Info ||  Who will get this email?
 define("RECIPIENT_NAME", "Studio Soleveil");
-define("RECIPIENT_EMAIL", "adrian.casimiro.alvarez@gmail.com");
+define("RECIPIENT_EMAIL", "josephine.alvarez@hotmail.com");
 
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -79,7 +79,7 @@ try {
 	$mail->Body .= 'message: ' . "<br>" . $message;
 
 	$mail->send();
-	echo "<div class='inner success'><p class='success'>Thanks for contacting us. We will contact you ASAP!</p></div><!-- /.inner -->";
+	echo "<div class='inner success'><p class='success'>Merci de nous contacter. Nous vous contacterons dès que possible !</p></div><!-- /.inner -->";
 } catch (Exception $e) {
-	echo "<div class='inner error'><p class='error'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</p></div><!-- /.inner -->";
+	echo "<div class='inner error'><p class='error'>Le message n'a pas pu être envoyé. Erreur de l'expéditeur: {$mail->ErrorInfo}</p></div><!-- /.inner -->";
 }

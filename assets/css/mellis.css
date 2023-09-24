@@ -1943,7 +1943,7 @@ ul {
 }
 
 .main-slider__icon img {
-  width: auto;
+  width: 80px;
 }
 
 .main-slider__sub-title {
@@ -3454,7 +3454,7 @@ ul {
 }
 
 .spa-center__img img {
-  width: 100%;
+  width: 115px;
 }
 
 .spa-center__title {
@@ -3508,7 +3508,7 @@ ul {
 
 .google-map__opening-hours {
   position: absolute;
-  top: 60px;
+  bottom: 60px;
   left: 60px;
   padding-left: 60px;
   padding-right: 50px;
@@ -3519,6 +3519,7 @@ ul {
   max-width: 380px;
   width: 100%;
 }
+
 
 .google-map__opening-hours-title {
   font-size: 30px;
@@ -5399,7 +5400,7 @@ ul {
 .opening-hour {
   position: relative;
   display: block;
-  margin-top: -30px;
+  margin-top: -90px;
   z-index: 2;
 }
 
