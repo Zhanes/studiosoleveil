@@ -6474,9 +6474,6 @@ ul {
   font-weight: 500;
 }
 
-.contact-one__form-input-box.text-message-box {
-  height: 125px;
-}
 
 .contact-one__btn-box {
   position: relative;
@@ -6895,10 +6892,11 @@ ul {
 /*--------------------------------------------------------------
 # Services Details
 --------------------------------------------------------------*/
+
 .services-details-two {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 80px 0 120px;
   z-index: 1;
 }
 

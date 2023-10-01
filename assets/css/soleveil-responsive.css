@@ -472,10 +472,6 @@
         margin-top: 40px;
     }
 
-    .services-details-two__right {
-        margin-top: 60px;
-    }
-
     .product__sidebar {
         margin-bottom: 60px;
     }
@@ -930,10 +926,6 @@
         margin-top: 40px;
     }
 
-    .services-details-two__right {
-        margin-top: 60px;
-    }
-
     .services-details-two__category-list li a {
         padding: 15px 80px 15px;
         padding-right: 20px;
@@ -1141,6 +1133,7 @@
     .main-menu-three .mobile-nav__toggler:hover {
         color: var(--soleveil-white);
     }
+    
 }
 
 
@@ -1190,7 +1183,9 @@
 
 
 
-
+    .services-details-two {
+        padding-top:40px;
+    }
 
 
 

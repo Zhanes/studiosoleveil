@@ -4,7 +4,7 @@
 	var gaid = asmconfig.gaid;
 	var exdays = 365;
 
-	var sparker_cookie_consent = getCookie("sparker_cookie_consent");
+	var studiosoleveil_cookie_consent = getCookie("studiosoleveil_cookie_consent");
 	var consent = 0;
 	var accepted = false;
 
@@ -15,8 +15,8 @@
 	var aviso2 = asmconfig.aviso2;
 	var pie = asmconfig.pie;
 
-	if(sparker_cookie_consent == "1") consent = 1;
-	if(sparker_cookie_consent == "2") consent = 2;
+	if(studiosoleveil_cookie_consent == "1") consent = 1;
+	if(studiosoleveil_cookie_consent == "2") consent = 2;
 
 
 	// GOOGLE TAG CONFIGURATION
@@ -36,7 +36,7 @@
 	document.write('<div class="aviso hidden" id="aviso" style=""><span class="close-lightbox si-cross" id="closeams" style="display:none;" onclick="hide_popup();"></span>' + aviso + '<button type="button" class="thm-btn" id="acepta"  onclick="aceptar(2);" >' + asmconfig.taceptar3 + '</button></div>');
 
 	// if there is no consent we show the popup, if we have it, we will not display it.
-	if(!sparker_cookie_consent) popup('show');
+	if(!studiosoleveil_cookie_consent) popup('show');
 
 	if(consent) {
 		document.addEventListener('DOMContentLoaded', function() {
@@ -90,7 +90,7 @@
 
 		var exdate=new Date();
 		exdate.setDate(exdate.getDate() + exdays);
-		document.cookie = "sparker_cookie_consent=" + modo + "; expires="+exdate.toUTCString() + ";path=/";
+		document.cookie = "studiosoleveil_cookie_consent=" + modo + "; expires="+exdate.toUTCString() + ";path=/";
 
 		if(!accepted){
 
@@ -140,7 +140,7 @@
 	function solo_necesarias() {
 		var exdate=new Date();
 		exdate.setDate(exdate.getDate() + exdays);
-		document.cookie = "sparker_cookie_consent=0; expires="+exdate.toUTCString() + ";path=/";
+		document.cookie = "studiosoleveil_cookie_consent=0; expires="+exdate.toUTCString() + ";path=/";
 		popup('hide');
 		return;
 	}
