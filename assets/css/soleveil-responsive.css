@@ -1133,7 +1133,11 @@
     .main-menu-three .mobile-nav__toggler:hover {
         color: var(--soleveil-white);
     }
-    
+
+    .gap-mobile {
+        margin-top: 80px;
+    }
+
 }
 
 
@@ -1185,6 +1189,10 @@
 
     .services-details-two {
         padding-top:40px;
+    }
+
+    .gap-mobile {
+        margin-top: 80px;
     }
 
 

@@ -4782,6 +4782,10 @@ ul {
   align-items: center;
 }
 
+.accrodion-content {
+  background-color: var(--soleveil-white);
+}
+
 .why-choose-one__faq .faq-one-accrodion .accrodion-content {
   position: relative;
   border-bottom: 1px solid var(--soleveil-bdr-color);
@@ -7153,13 +7157,13 @@ ul {
   cursor: pointer;
   padding: 22px 40px 24px;
   padding-right: 15px;
-  background-color: var(--soleveil-extra);
+  background-color: var(--soleveil-white);
   transition: all 200ms linear;
   transition-delay: 0.1s;
 }
 
 .services-details-two__faq .faq-one-accrodion .accrodion.active .accrodion-title {
-  background-color: transparent;
+  background-color: var(--soleveil-white);
 }
 
 .services-details-two__faq .faq-one-accrodion .accrodion-title h4 {
