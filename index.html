@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8" />
@@ -50,6 +50,20 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/soleveil.css" />
     <link rel="stylesheet" href="assets/css/soleveil-responsive.css" />
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLN095T9CT"></script>
+    <script>
+        if(host != "localhost")
+        {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-JLN095T9CT');
+        }
+    </script>
 </head>
 
 <body>
@@ -995,7 +1009,10 @@
     <script src="assets/vendors/twenty-twenty/twentytwenty.js"></script>
     <script src="assets/vendors/twenty-twenty/jquery.event.move.js"></script>
 
-
+    <!-- Cookies script -->
+    <script src="assets/js/asm_config.js"></script>
+    <script src="assets/js/asm_content.js"></script>
+    <!-- End Cookies script -->
 
 
     <!-- template js -->

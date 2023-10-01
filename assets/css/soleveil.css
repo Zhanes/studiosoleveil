@@ -9209,7 +9209,132 @@ ul {
 }
 
 
+.aviso {
+  background-color: var(--soleveil-extra);
+  z-index: 999999999;
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  bottom: -3px;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  PADDING: 50px;
+  transition: opacity 1s;
+  text-align: center;
+  color: var(--soleveil-black);
+}
 
+.aviso .thm-btn {
+  border:0;
+}
+
+div#cookie_button {
+  z-index: 999999999;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  transition: all 2s ease-in;
+}
+
+.aviso.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease-in;
+}
+
+.aviso p {
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.asm-button {
+  padding: 10px;
+  margin: 7px;
+  border: 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+svg#Capa_1 {
+  width: 40px;
+  height: 40px;
+  fill: #ca7c1b;
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+
+button#cookie_button_b {
+  background-color: transparent;
+  margin: 0;
+  padding: 20px;
+  border-radius: 140px 0 0;
+}
+
+svg#config {
+  position: relative;
+  top: 5px;
+  margin-right: 3px;
+  margin-top: -11px;
+  fill: #333;
+}
+
+div#asm_state {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pieadvice {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  padding: 2px;
+  color: #666;
+}
+
+svg#closeams {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#cookiesaceptance {
+  border-top: 1px solid #0b0b0b;
+  display:none;
+  position:fixed;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  padding-bottom:20px;
+  width:100%;
+  text-align:center;
+  min-height:40px;
+  z-index:99999;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #161616;
+  line-height: 26px;
+}
+
+.innerCookies {
+display: block;
+margin-top: 30px;
+}
+
+#cookiesaceptance .inner {
+width: 100%;
+padding-left: 10px;
+bottom: 0;
+max-width: 1140px;
+margin-left: auto;
+margin-right: auto;
+}
 
 
 
