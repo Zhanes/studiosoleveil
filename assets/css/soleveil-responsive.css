@@ -1141,7 +1141,11 @@
 }
 
 
-
+@media (max-width: 991px) {
+    .reverse-mobile-columns{
+        flex-direction: column-reverse;
+    }
+}
 
 
 @media (max-width: 767px) {
