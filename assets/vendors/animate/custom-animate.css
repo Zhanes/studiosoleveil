@@ -788,7 +788,7 @@
     Float Bob Y Animation Css
 =============================================
 ***/
-@-webkit-keyframes float-bob-y {
+@-webkit-keyframes   {
   0% {
     transform: translateY(-20px);
   }
@@ -802,7 +802,7 @@
   }
 }
 
-@keyframes float-bob-y {
+@keyframes   {
   0% {
     transform: translateY(-20px);
   }
@@ -816,9 +816,9 @@
   }
 }
 
-.float-bob-y {
-  -webkit-animation-name: float-bob-y;
-  animation-name: float-bob-y;
+.  {
+  -webkit-animation-name:  ;
+  animation-name:  ;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
@@ -1540,7 +1540,7 @@
     Float Bob X Animation Css
 =============================================
 ***/
-@-webkit-keyframes float-bob-x {
+@-webkit-keyframes   {
   0% {
     transform: translateX(-30px);
   }
@@ -1554,7 +1554,7 @@
   }
 }
 
-@keyframes float-bob-x {
+@keyframes   {
   0% {
     transform: translateX(-30px);
   }
@@ -1568,9 +1568,9 @@
   }
 }
 
-.float-bob-x {
-  -webkit-animation-name: float-bob-x;
-  animation-name: float-bob-x;
+.  {
+  -webkit-animation-name:  ;
+  animation-name:  ;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
@@ -1588,7 +1588,7 @@
     Float Bob X 2 Animation Css
 =============================================
 ***/
-@-webkit-keyframes float-bob-x-2 {
+@-webkit-keyframes  -2 {
   0% {
     transform: translateX(-30px) rotate(45deg);
   }
@@ -1602,7 +1602,7 @@
   }
 }
 
-@keyframes float-bob-x-2 {
+@keyframes  -2 {
   0% {
     transform: translateX(-30px) rotate(45deg);
   }
@@ -1616,9 +1616,9 @@
   }
 }
 
-.float-bob-x-2 {
-  -webkit-animation-name: float-bob-x-2;
-  animation-name: float-bob-x-2;
+. -2 {
+  -webkit-animation-name:  -2;
+  animation-name:  -2;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
@@ -1639,7 +1639,7 @@
     Float Bob Y Animation Css
 =============================================
 ***/
-@-webkit-keyframes float-bob-y-2 {
+@-webkit-keyframes  -2 {
   0% {
     transform: translateY(-20px) rotate(45deg);
     ;
@@ -1656,7 +1656,7 @@
   }
 }
 
-@keyframes float-bob-y-2 {
+@keyframes  -2 {
   0% {
     transform: translateY(-20px) rotate(45deg);
     ;
@@ -1673,9 +1673,9 @@
   }
 }
 
-.float-bob-y-2 {
-  -webkit-animation-name: float-bob-y-2;
-  animation-name: float-bob-y-2;
+. -2 {
+  -webkit-animation-name:  -2;
+  animation-name:  -2;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;

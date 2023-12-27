@@ -5579,8 +5579,8 @@ ul {
   border-radius: 50%;
   z-index: -1;
 
-  -webkit-animation-name: float-bob-y;
-  animation-name: float-bob-y;
+  -webkit-animation-name:  ;
+  animation-name:  ;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
