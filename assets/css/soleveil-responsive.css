@@ -1145,6 +1145,15 @@
     .reverse-mobile-columns{
         flex-direction: column-reverse;
     }
+
+    .video-one__video-link{
+        width: 100%;
+    }
+
+    .video-one__video-icon{
+        margin:auto;
+    }
+
 }
 
 
@@ -1198,8 +1207,6 @@
     .gap-mobile {
         margin-top: 80px;
     }
-
-
 
 }
 
