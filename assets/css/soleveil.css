@@ -7020,6 +7020,7 @@ ul {
   margin-top: -49px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  z-index: 2;
 }
 
 .services-details-two__help-line-icon:hover {
@@ -9351,3 +9352,25 @@ margin-right: auto;
 /*--------------------------------------------------------------
 # Boxed Version
 --------------------------------------------------------------*/
+
+
+/* TEMPORAL apply color over all images */
+:has(> img) {
+  /* Styles for the parent container of all img elements */
+  position: relative;
+}
+
+img {
+  position: relative;
+}
+
+:has(> .img-background)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233, 159, 160, 0.5);
+  z-index: 1;
+}
