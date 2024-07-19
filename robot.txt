@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Disallow: /Documentation.pdf
+Allow: /
+
+Sitemap: https://studiosoleveil.ch/sitemap.xml

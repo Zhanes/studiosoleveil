@@ -2719,6 +2719,14 @@ ul {
   font-size: 16px;
 }
 
+.services-one__link {
+  color: var(--soleveil-white)
+}
+
+.services-one__link:hover {
+  color: var(--soleveil-base);
+}
+
 /*--------------------------------------------------------------
 # Video One
 --------------------------------------------------------------*/
